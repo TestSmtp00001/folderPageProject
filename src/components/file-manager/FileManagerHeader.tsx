@@ -146,7 +146,7 @@ export function FileManagerHeader({
                 Sort by Name {sortBy === 'name' && '✓'}
               </DropdownMenuItem>
               <DropdownMenuItem onClick={() => handleSortClick('modified')}>
-                Sort by Modified {sortBy === 'modified' && '✓'}
+                Sort by Uploaded {sortBy === 'modified' && '✓'}
               </DropdownMenuItem>
               <DropdownMenuItem onClick={() => handleSortClick('size')}>
                 Sort by Size {sortBy === 'size' && '✓'}
